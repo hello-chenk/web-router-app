@@ -15,6 +15,10 @@ const config: Config = {
         'bg-3-1': "url('/home/bg-3-1.png')",
         'bg-3-2': "url('/home/bg-3-2.png')",
       },
+      backgroundSize: {
+        "100": "100%",
+        "150": "150%"
+      }
     },
   },
   plugins: [],

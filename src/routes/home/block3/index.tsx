@@ -72,7 +72,7 @@ export const Block3 = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6"> 
               <animated.div style={props2}>
                 <div className="bg-gradient-to-br from-[#092252] from-[11%] to-[#05102285] to-[95%] rounded-3xl overflow-hidden">
-                  <div className="bg-bg-3-1 bg-right-bottom bg-no-repeat h-[370px] bg-cover p-6">
+                  <div className="bg-bg-3-1 bg-right-bottom bg-no-repeat h-[370px] p-6 bg-100 hover:bg-150 transition-all duration-300 ease-linear">
                     <h1 className="text-xl lg:text-3xl" >Revolutionary Decentralized Router</h1>
                     <p>Earn While You Connect</p>
                   </div>
@@ -82,8 +82,8 @@ export const Block3 = () => {
               {/* background: linear-gradient(114.87deg, #071A40 11.01%, rgba(5, 16, 34, 0.8) 97.64%);
  */}
               <animated.div style={props3}>
-                <div className="bg-gradient-to-br from-[#071A40] from-[11%] to-[#05102285] to-[95%] rounded-3xl">
-                  <div className="bg-bg-3-2 bg-right-bottom bg-no-repeat h-[370px] p-6 ">
+                <div className="bg-gradient-to-br from-[#071A40] from-[11%] to-[#05102285] to-[95%] rounded-3xl overflow-hidden">
+                  <div className="bg-bg-3-2 bg-right-bottom bg-no-repeat h-[370px] p-6 bg-100 hover:bg-150 transition-all duration-300 ease-linear">
                     <h2 className="text-xl lg:text-3xl">High-Speed Network, Effortless Earnings</h2>
                     <p>Technology driven, not dependent on token economy</p>
                   </div>
