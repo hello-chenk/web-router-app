@@ -10,7 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-          'bg-1': "url('/home/bg-1.png')",
+        'bg-1': "url('/home/bg-1.png')",
+        'bg-2': "url('/home/bg-2.png')",
+        'bg-3-1': "url('/home/bg-3-1.png')",
+        'bg-3-2': "url('/home/bg-3-2.png')",
       },
     },
   },

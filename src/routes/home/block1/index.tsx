@@ -11,13 +11,13 @@ export const Block1 = () => {
   const targetRef = useRef<HTMLDivElement|null>(null)
   const [props, api] = useSpring(() => ({
     opacity: 0,
-    transform: `translate3d(30px, 0, 0)`,
+    transform: `translate3d(50px, 0, 0)`,
     delay: 1000,
   }), [])
 
   const [props2, api2] = useSpring(() => ({
     opacity: 0,
-    transform: `translate3d(-30px, 0, 0)`,
+    transform: `translate3d(-50px, 0, 0)`,
     delay: 1000,
   }), [])
   
@@ -36,17 +36,17 @@ export const Block1 = () => {
     } else {
       api.start({
         opacity: 0,
-        transform: `translate3d(30px, 0, 0)`,
+        transform: `translate3d(50px, 0, 0)`,
       })
       api2.start({
         opacity: 0,
-        transform: `translate3d(-30px, 0, 0)`,
+        transform: `translate3d(-50px, 0, 0)`,
       })
     }
   }, [api, api2, isVisible])
 
-  return (<div className=" bg-bg-1 bg-no-repeat bg-cover">
-    <LinerBlock >
+  return (<div className="bg-bg-1 bg-no-repeat bg-cover">
+    <div className="bg-gradient-to-b from-[#030D1DED] from-[30%] to-[#05102285] to-[85%]">
       <div className="h-screen container mx-auto " >
         <div className="pt-20 md:pt-44 " />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
@@ -70,7 +70,6 @@ export const Block1 = () => {
 
         </div>
       </div>
-    </LinerBlock>
-
+    </div>
   </div>)
 }

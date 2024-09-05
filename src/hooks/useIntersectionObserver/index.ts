@@ -11,7 +11,7 @@ export function useIntersectionObserver(
   options: IntersectionObserverOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.1,
+    threshold: 0.6,
   }
 ): boolean {
   const [isIntersecting, setIsIntersecting] = useState(false);
